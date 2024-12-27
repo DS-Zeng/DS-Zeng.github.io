@@ -14,22 +14,6 @@
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
-    <script>
-        function fetchZipNeRFStars() {
-            var xhr = new XMLHttpRequest();
-            xhr.open("GET", "https://api.github.com/repos/SuLvXiangXin/zipnerf-pytorch", true);
-            xhr.onload = function () {
-                if (xhr.status === 200) {
-                    var repo = JSON.parse(xhr.responseText);
-                    document.getElementById("github-stars").innerText = "(" + repo.stargazers_count + " stars🌟)";
-                } else {
-                    document.getElementById("github-stars").innerText = "Error fetching stars";
-                }
-            };
-            xhr.send();
-        }
-        setInterval(fetchZipNeRFStars, 60000);
-    </script>
   </head>
 
   <body>
@@ -48,7 +32,7 @@
                   I'm interested in Computer Vision and Deaplearning and Graphics.
                 </p>
                 <p style="text-align:center">
-                  <a href="22307130097@m.fudan.edu.cn">Email</a> &nbsp/&nbsp
+                  <a href="22307130097@m.fudan.edu.cn">Email: 22307130097@m.fudan.edu.cn</a> &nbsp/&nbsp
                   <a href="https://github.com/Yaoyuxuanyyds/">Github</a>
                 </p>
               </td>
