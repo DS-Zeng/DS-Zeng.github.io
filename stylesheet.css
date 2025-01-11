@@ -1,79 +1,3 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-a {
-  color: #1772d0;
-  text-decoration: none;
-}
-
-a:focus,
-a:hover {
-  color: #f09228;
-  text-decoration: none;
-}
-
 body,
 td,
 th,
@@ -84,52 +8,197 @@ a {
   font-size: 14px;
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+.section {
+  margin-top: 30px;
 }
 
-h2 {
-  margin: 0;
-  font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+.section-title {
   font-size: 22px;
+  font-weight: bold;
+  color: #1772d0;
+  border-bottom: 2px solid #1772d0;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
-.papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
+.section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
 }
+
+.section ul {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+.section ul li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+.email-list {
+  text-align: center;
+  margin: 20px 0; /* 上下间距更宽 */
+}
+
+.email-list a {
+  display: block; /* 每个邮箱单独占一行 */
+  font-size: 14px; /* 较小的字体 */
+  color: #333; /* 深灰色字体 */
+  text-decoration: none; /* 去掉下划线 */
+  margin: 5px 0; /* 每个邮箱之间的间距 */
+  transition: color 0.3s ease;
+}
+
+.email-list a:hover {
+  color: #1772d0; /* 鼠标悬停时变为蓝色 */
+}
+
+
+.github-link {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 6px 12px; /* 调整按钮大小为更小尺寸 */
+  font-size: 14px; /* 较小字体 */
+  font-weight: bold;
+  color: #fff; /* 白色文字 */
+  background-color: #333; /* 深灰色背景 */
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.github-link:hover {
+  background-color: #555; /* 鼠标悬停时为更浅的灰色 */
+  transform: translateY(-2px); /* 鼠标悬停时轻微上移 */
+}
+
+.github-link:active {
+  background-color: #777; /* 点击时更浅灰色 */
+  transform: translateY(0); /* 点击时复位 */
+}
+
+
 
 .name {
   padding-top: 20px;
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+  font-weight: bold; /* 加粗字体，增强视觉冲击力 */
+  color: #1a1a1a; /* 深灰色，更现代化的风格 */
 }
 
-.one {
-  width: 160px;
-  height: 160px;
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.project-item {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fdfdfd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.project-image {
   position: relative;
+  flex: 1;
+  max-width: 250px; /* 缩小宽度 */
+  margin-right: 20px;
+  width: 250px; /* 固定宽度 */
+  height: 200px; /* 固定高度，调整比例 */
+  border-radius: 12px; /* 圆角比例也稍作调整 */
+  overflow: hidden; /* 超出部分裁剪 */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15), 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.two {
-  width: 160px;
-  height: 160px;
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 图片裁剪并填充整个相框 */
+  object-position: center; /* 图片居中显示 */
+  transition: transform 0.3s ease; /* 添加动态效果 */
+}
+
+.project-image:hover img {
+  transform: scale(1.05); /* 鼠标悬停时图片略微放大 */
+}
+
+.project-image .tag {
   position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+  top: 8px; /* 根据缩小后的框大小调整位置 */
+  left: 8px;
+  background-color: #002b7f;
+  color: #fff;
+  font-size: 12px; /* 调整标签文字大小 */
+  padding: 4px 12px; /* 缩小标签内边距 */
+  border-radius: 6px; /* 圆角比例调整 */
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+
+
+
+.project-info {
+  flex: 2;
 }
 
-span.highlight {
-  background-color: #ffffd0;
+.project-info h3 {
+  font-size: 20px;
+  color: #1772d0;
+  margin: 0 0 10px;
+}
+
+.project-info p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+.project-info .highlight {
+  color: #000000;
+  font-weight: bold;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.links .paper-link {
+  background: #333; /* 深灰色背景 */
+  color: #fff; /* 白色文字 */
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #333; /* 增加边框，保持简约感 */
+  transition: all 0.3s ease; /* 添加平滑的过渡效果 */
+}
+
+.links .paper-link:hover {
+  background: #fff; /* 悬停时背景变为白色 */
+  color: #333; /* 悬停时文字变为深灰色 */
+  border: 1px solid #333; /* 保留边框样式 */
+}
+
+.links .status {
+  display: inline-block;
+  margin-left: 15px;
+  color: #e61b14;
+  font-style: italic;
 }
