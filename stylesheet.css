@@ -196,7 +196,7 @@ a {
   border: 1px solid #333; /* 保留边框样式 */
 }
 
-.links .status {
+.status {
   display: inline-block;
   margin-left: 15px;
   color: #e61b14;
